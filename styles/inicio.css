@@ -44,7 +44,7 @@ header{
 
 .section01{
 
-    background-image: url(/assets/cabecera.jpg);
+    background-image: url(./assets/cabecera.jpg);
     height: 700px;
     align-content: center;
 
