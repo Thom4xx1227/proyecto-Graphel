@@ -1,0 +1,179 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+
+h1{
+    color: white;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(37,40,42,255) ;
+    border-bottom: 6px solid rgba(18,146,213,255);
+}
+
+.span01{
+    color: rgba(18,146,213,255);
+}
+
+.a01{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.a01:hover{
+
+    color: rgba(18,146,213,255);
+}
+
+.nav{
+
+    display: flex;
+    align-content: center;
+}
+
+.section01{
+
+    background-image: url(/assets/cabecera.jpg);
+    height: 700px;
+    align-content: center;
+
+}
+
+.h2-01{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+.p1{
+    color: white;
+    font-size: 20px;
+    width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section2{
+    background-color: rgba(37,40,42,255) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+
+}
+
+
+.div1{
+
+    display: flex;
+    align-items: center;
+}
+
+.p2{
+    color: white;
+    font-size: 22px;
+}
+.div2{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.label1{
+
+    background-color: rgba(233,73,28,255);
+    color: white;
+    height: 32px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.input1{
+
+    height: 30px;
+    width: 250px;
+}
+
+.section3{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+
+
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img1{
+width: 140px;
+}
+.img2{
+    width: 140px;
+}
+.img3{
+    width: 140px;
+    display: flex;
+
+}
+
+.p3{
+    width: 400px;
+    text-align: center;
+
+
+}
+.p4{
+    width: 400px;
+    text-align: center;
+
+}
+.p5{
+    width: 400px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgba(19,146,212,255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}

@@ -1,0 +1,144 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+
+h1{
+    color: white;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(37,40,42,255) ;
+    border-bottom: 6px solid rgba(18,146,213,255);
+}
+
+.span01{
+    color: rgba(18,146,213,255);
+}
+
+.a01{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.a01:hover{
+
+    color: rgba(18,146,213,255);
+}
+
+.nav{
+
+    display: flex;
+    align-content: center;
+}
+
+.section1{
+    background-color: rgba(37,40,42,255) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+
+}
+
+
+.div1{
+
+    display: flex;
+    align-items: center;
+}
+
+.p1{
+    color: white;
+    font-size: 22px;
+}
+.div1{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+
+}
+
+.label1{
+
+    background-color: rgba(233,73,28,255);
+    color: white;
+    height: 32px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.input1{
+
+    height: 30px;
+    width: 250px;
+}
+
+
+.section2{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.div2{
+    margin-left: 200px;
+}
+
+.div3{
+    background-color: rgba(230,231,231,255);
+    padding: 20px;
+    border: 1px solid gray;
+    width: 750px;
+    margin-bottom: 5px;
+
+}
+
+.div4{
+    background-color: rgba(230,231,231,255);
+    padding: 20px;
+    border: 1px solid gray;
+    width: 750px;
+    margin-bottom: 5px;
+}
+
+
+.div5{
+    background-color: rgba(230,231,231,255);
+    padding: 20px;
+    border: 1px solid gray;
+    width: 750px;
+}
+
+.div6{
+    background-color:rgba(52,66,75,255) ;
+    width: 350px;
+    height: 200px;
+    color: white;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+footer{
+    background-color: rgba(19,146,212,255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+}
